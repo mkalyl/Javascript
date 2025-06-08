@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First steps with DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Start DOM study</h1>
+    <p>See the result</p>
+    <p>Learning to use the <strong>DOM</strong> in JavaScript</p>
+    <div>Click here</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p1.innerText)
+    </script>
+</body>
+</html>
